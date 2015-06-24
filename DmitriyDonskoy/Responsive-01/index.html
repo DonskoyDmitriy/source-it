@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>Responsive-01</title>
 	<link media="all" rel="stylesheet" href="css/all.css">
-
-    <!--<script type="text/javascript" src="js/main.js"></script>-->
+    <script type="text/javascript" src="js/main.js"></script>
     </head>
 <body>
 <!-- Start Wrapper-->
@@ -59,22 +58,55 @@
 
 <!-- Start Main-->
                 <div id="main">
-                   <div class="slider">
-                       <div class="slider-img">
-                           <img src="images/slider-img-01.png" alt="slider-img">
-                       </div>
-                       <ul>
-                           <li><a href="#">  </a></li>
-                           <li><a href="#">  </a></li>
-                           <li><a href="#">  </a></li>
-                           <li><a href="#">  </a></li>
-                           <li><a href="#">  </a></li>
-                       </ul>
-                   </div>
+                   <article id=slider>
+                        <!-- Slider Setup -->
+                        <input checked type=radio name=slider id=slide1 />
+                        <input type=radio name=slider id=slide2 />
+                        <input type=radio name=slider id=slide3 />
+                        <input type=radio name=slider id=slide4 />
+                        <input type=radio name=slider id=slide5 />
+                        <!-- The Slider -->
+                        <div id=slides>
+                            <div id=overflow>
+                                <div class=inner>
+                                    <article>
+                                        <img src="images/slider-img-01.png"  alt="img"/>
+                                    </article>
+                                    <article>
+                                        <img src="images/slider-img-01.png" alt="img"/>
+                                    </article>
+                                    <article>
+                                        <img src="images/slider-img-01.png"  alt="img"/>
+                                    </article>
+                                    <article>
+                                        <img src="images/slider-img-01.png" />
+                                    </article>
+                                    <article>
+                                        <img src="images/slider-img-01.png" />
+                                    </article>
+                                </div>
+                            </div>
+                        </div> <!-- #slides -->
+                        <div id=controls>
+                            <label for=slide1></label>
+                            <label for=slide2></label>
+                            <label for=slide3></label>
+                            <label for=slide4></label>
+                            <label for=slide5></label>
+                        </div> <!-- #controls -->
+                        <div id=active>
+                            <label for=slide1></label>
+                            <label for=slide2></label>
+                            <label for=slide3></label>
+                            <label for=slide4></label>
+                            <label for=slide5></label>
+
+                        </div> <!-- #active -->
+                    </article>
 
 
 
-<!--Start Content-->
+                    <!--Start Content-->
                     <div id="content">
                         <div class="content-panel">
                             <div class="container">
@@ -286,22 +318,22 @@
                                 <li><a href="#">Tokio</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <ul class="social-info">
-                                <p class="info-title">Social </p>
-                                <ul>
-                                    <li><a href="#"><img src="images/twitter-ico.png" alt=" "></a></li>
-                                    <li><a href="#"><img src="images/pinterest-ico.png" alt=" "></a></li>
-                                    <li><a href="#"><img src="images/facebook-ico.png" alt=" "></a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="#"><img src="images/google-ico.png" alt=" "></a></li>
-                                    <li><a href="#"><img src="images/tumblr-ico.png" alt=" "></a></li>
-                                    <li><a href="#"><img src="images/vimeo-ico.png" alt=" "></a></li>
-                                </ul>
-                            </ul>
-                        </li>
                     </ul>
+                    <div>
+                        <ul class="social-info">
+                            <p class="info-title">Social </p>
+                            <ul>
+                                <li><a href="#"><img src="images/twitter-ico.png" alt=" "></a></li>
+                                <li><a href="#"><img src="images/pinterest-ico.png" alt=" "></a></li>
+                                <li><a href="#"><img src="images/facebook-ico.png" alt=" "></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#"><img src="images/google-ico.png" alt=" "></a></li>
+                                <li><a href="#"><img src="images/tumblr-ico.png" alt=" "></a></li>
+                                <li><a href="#"><img src="images/vimeo-ico.png" alt=" "></a></li>
+                            </ul>
+                        </ul>
+                    </div>
                     <img class="secured" src="images/secured-ico.png" alt="secured">
                     <div class="clearfix"></div>
                 </div>
