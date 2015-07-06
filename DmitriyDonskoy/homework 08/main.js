@@ -1,3 +1,4 @@
+
 var multiplicationTableHolder = document.getElementById('multiplication-table');
 var matrixHolder = document.getElementById('matrix');
 var pascalTriangleHolder = document.getElementById('pascal-triangle');
