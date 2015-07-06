@@ -1766,10 +1766,10 @@ td, th {padding: 0;}
         color: #544f4d;
         font-family: Arial, sans-serif;
     }
-    .social-info{
+    .info .container >.social-info{
         position: absolute;
-        top: 29px;
-        right: 178px;
+        top: 0px;
+        right: 113px;
     }
     .info .container{
         position: relative;
