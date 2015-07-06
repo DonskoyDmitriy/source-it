@@ -20,10 +20,8 @@ $(document).ready(function(){
 //5)По клику на элемент списка назначать на него класс "active".
 //Одновременно этот класс может быть только на одном элементе в пределах
 // одного списка
-    $(".list>li").click(function(){
+    $(".list li").click(function(){
         $(".list>li").removeClass('active');
         $(this).addClass( 'active' )
     })
-
-
 }); //finish ready
