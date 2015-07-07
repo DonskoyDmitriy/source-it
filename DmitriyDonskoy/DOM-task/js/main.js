@@ -1,6 +1,6 @@
-//(function(){
+
     function bubbleSort(data) {
-        var arr = data.slice()
+        var arr = data.slice();
         for (var i = 0; i < arr.length - 1; i++) {
             for (var j = 0; j < arr.length - i - 1; j++) {
                 if(arr[j] > arr[j + 1]) {
@@ -43,28 +43,21 @@
 		//исходный массив [1,2,[3,4,[6,7,8],9],10,11]
         return fragment;
     }
-    var fn =document.getElementById("first-name");
-    var ln =document.getElementById("last-name");
+
     function simpleValidation() {
+        var fn =document.getElementById("first-name");
+        var ln =document.getElementById("last-name");
         var x=fn.value.length;
-        console.log(x);
         var y=ln.value.length;
-        console.log(y);
         function validate(x,y) {
-            if(x==0){
-                document.getElementById('first-name').style.borderColor='red';
-                return false}
-            else if(y==0){
-                document.getElementById('last-name').style.borderColor='red';
-                    return false}
+            if(x==0){fn.classList.add("red-border");}
+            else {fn.classList.remove("red-border");}
+            if(y==0){ln.classList.add("red-border");}
+            else {ln.classList.remove("red-border");}
+            if(y!==0&&x!==0){ alert('GOOOOD JOB !!!!!!!!')}
+
         };
         validate(x,y);
-        if(validate()){
-            document.getElementById('last-name').style.borderColor='white';
-            document.getElementById('first-name').style.borderColor='white';
-            alert('good');
-        }
-
         //@todo при сабмите формы проверять поля на пустотое значение.
 		//При ошибке подсвечивать красным соответствующее поле.
 		//Если оба поля заполнены, вывести сообщение об удачной отправке формы
@@ -72,33 +65,44 @@
 //
 //	//вызывать функции здесь!
     sortHandler();
-//})();
-/*for(var i=0; i<a.length;i++) {
-    if (Array.isArray(a[i])) {
-        console.log('rrr');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*elem.appendChild()
+
+var a= [1,2,[3,4,[6,7,8],9],10,11];
+function recursiveList (arr) {
+   document.getElementById("list").innerHTML='<ul>'+'</ul>';
+    for(var i=0; i<arr.length;i++){
+        if(Array.isArray(arr[i])){
+            document.getElementById("list").firstElementChild.innerHTML ='<li><ul>'+a[i]+'</ul></li>';
+        console.log(i);}
+        else{document.getElementById("list").firstElementChild.innerHTML ='<li>'+a[i]+'</li>';
+            console.log(i)}
     }
-    else if (a[i]) {
-        console.log(a[i]);
-    }
-    ;
-};*/
-document.getElementById("list").innerHTML ='<ul>'+ +'</ul>';
-a= [1,2,[3,4,[6,7,8],9],10,11];
-for(var i=0; i<a.length;i++) {
-
-    if (Array.isArray(a[i])){document.getElementById("list").children[0].innerHTML ='<ul>'+ +'</ul>'};
-    document.getElementById("list").firstChild.innerHTML ='<li>'+a[i]+'</li>';
-
-        for(var j=0;j< a[i].length;j++){
-           if (Array.isArray(a[i][j])) {document.getElementById("list").children[0].children[i].innerHTML ='<ul>'+ +'</ul>'};
-           document.getElementById("list").firstChild.children[i].innerHTML ='<li>'+a[i]+'</li>'
-                for(var k=0; k< a[i][j].length; k++){
-                    if  (a[i][j][k]) {/*console.log(a[i][j][k])*/}
-};
-};
-};
 
 
-
-
-elem.appendChild()
+    };
+recursiveList(a);
+*/
