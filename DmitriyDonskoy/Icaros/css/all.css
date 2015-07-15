@@ -117,40 +117,94 @@ td, th {padding: 0;}
 /* Start Main*/
 
 /* Start Content*/
-.slider{
+.flexslider{
     width: 100%;
     position: relative;
+}
 
+
+/*Start Slider*/
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {
+    outline: none; }
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.main-img{
-    display: block;
+.flexslider a img {
+    outline: none;
+    border: none; }
+.flexslider {
+    margin: 0;
+    padding: 0;
+}
+.flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+
+.flexslider .slides img {
     width: 100%;
-    padding: 50px 0;
-}
-.button-left{
-    background: url("../images/button-left.png") no-repeat;
     display: block;
-    float: left;
-    width: 35px;
-    height: 36px;
-    text-indent: -9999px;
+}
+.slides:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+html[xmlns] .slides { display: block; }
+* html .slides { height: 1%; }
+/* Slider Style*/
+.flexslider {
+    position: relative;
+    zoom: 1;
+    padding: 10px;
+    background: #ffffff;
+}
+.flex-container {
+    min-width: 768px;
+    max-width: 100%;
+}
+.flexslider .slides { zoom: 1; }
+/* Scroll buttons. Style */
+.flex-direction-nav a {
+    display: block;
     position: absolute;
+    margin: -17px 0 0 0;
+    width: 35px;
+    height: 35px;
     top: 50%;
-    left:0;
-    margin-left: 20px;
-}
-.button-right{
-    background: url("../images/button-right.png")no-repeat;
-    display: block;
-    float: right;
-    width: 35px;
-    height: 36px;
+    cursor: pointer;
     text-indent: -9999px;
-    position: absolute;
-    top:50%;
-    right: 0;
-    margin-right: 20px ;
 }
+.flex-direction-nav .flex-next {
+    right: 20px;
+    background-image: url("../images/button-right.png");
+}
+.flex-direction-nav .flex-prev {
+    left: 20px;
+    background-image: url("../images/button-left.png");
+}
+.flex-direction-nav .flex-next:before {
+    background-position: -9px 0; left: 15px; }
+.flex-direction-nav .flex-prev:before {
+    background-position: 0 0; }
+.flexslider .flex-control-nav {
+    display: none;
+}
+.flex-control-nav li {
+    display: none;
+}
+/* Finish Slider */
+
 .wrap>div{
     margin: 50px 0  ;
 }
