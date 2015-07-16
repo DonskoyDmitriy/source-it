@@ -10,13 +10,13 @@ $(document).ready(function() {
 
     function showNextSlide(i){
         $(slide[i-1]).fadeOut(500);
-        $ (slide[i]).fadeIn(1000)
+        $ (slide[i]).fadeIn(500)
     };
     function showPreviousSlide(i){
-        if(i==slideLength){$(slide[0]).fadeOut(1500);
-            $(slide[slideLength]).fadeIn(1000)}
-        else{$(slide[i + 1]).fadeOut(1500);
-            $(slide[i]).fadeIn(1000);}
+        if(i==slideLength){$(slide).fadeOut(500);
+            $(slide[slideLength]).fadeIn(500)}
+        else{$(slide[i + 1]).fadeOut(500);
+            $(slide[i]).fadeIn(500);}
     };
 
     next.click( function btnNext(e){

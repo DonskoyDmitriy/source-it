@@ -26,19 +26,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="circular gallery.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/circular  gallery/circular gallery.html">
+          <file leaf-file-name="fade gallery.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/fade gallery/fade gallery.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.23595506" vertical-offset="1013" max-vertical-offset="1547">
-                  <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="0.03195489" vertical-offset="663" max-vertical-offset="1564">
+                  <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -48,10 +41,10 @@
       <split-second>
         <leaf>
           <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/circular  gallery/js/main.js">
+            <entry file="file://$PROJECT_DIR$/fade gallery/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.82198954" vertical-offset="158" max-vertical-offset="731">
-                  <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.2977233" vertical-offset="0" max-vertical-offset="748">
+                  <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -68,11 +61,11 @@
         <option value="$PROJECT_DIR$/task1/js/main.js" />
         <option value="$PROJECT_DIR$/fade gallery/gallery.html" />
         <option value="$PROJECT_DIR$/fade gallery/fade gallery.html" />
-        <option value="$PROJECT_DIR$/fade gallery/js/main.js" />
         <option value="$PROJECT_DIR$/circular  gallery/circular gallery.html" />
         <option value="$PROJECT_DIR$/gallery/gallery.html" />
         <option value="$PROJECT_DIR$/gallery/js/main.js" />
         <option value="$PROJECT_DIR$/circular  gallery/js/main.js" />
+        <option value="$PROJECT_DIR$/fade gallery/js/main.js" />
       </list>
     </option>
   </component>
@@ -96,7 +89,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -107,7 +100,61 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ht15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ht15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ht15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ht15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ht15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fade gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ht15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ht15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fade gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -191,7 +238,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -247,6 +294,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/circular  gallery/circular gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="992" max-vertical-offset="1547">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circular  gallery/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circular  gallery/circular gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1013" max-vertical-offset="1547">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circular  gallery/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/circular  gallery/circular gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1547">
@@ -405,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fade gallery/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3870403" vertical-offset="68" max-vertical-offset="748">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
@@ -426,17 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fade gallery/fade gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03107861" vertical-offset="918" max-vertical-offset="1564">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/circular  gallery/circular gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23595506" vertical-offset="1013" max-vertical-offset="1547">
-          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.24436091" vertical-offset="992" max-vertical-offset="1547">
+          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -450,8 +529,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circular  gallery/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82198954" vertical-offset="158" max-vertical-offset="731">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.3782837" vertical-offset="90" max-vertical-offset="816">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fade gallery/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2977233" vertical-offset="0" max-vertical-offset="748">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fade gallery/fade gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03195489" vertical-offset="663" max-vertical-offset="1564">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding />
         </state>
       </provider>
